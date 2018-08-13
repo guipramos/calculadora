@@ -1,0 +1,546 @@
+.boxTudo {
+    border: 1px solid #000;
+    width: 228px;
+    height: 321px;
+    border-radius: 6px;
+}
+
+img.imageCalc {
+    position: relative;
+    top: 9px;
+    left: 5%;
+}
+
+h1.titulo {
+    position: relative;
+    left: 14%;
+	font-size: 14px;
+	bottom: 20px;
+}
+
+button.menor {
+    position: relative;
+    float: right;
+    margin-top: -47px;
+    right: 73px;
+    width: 31px;
+    height: 16px;
+}
+
+button.quadrado {
+    position: relative;
+    float: right;
+    margin-top: -47px;
+    right: 39px;
+    width: 31px;
+    height: 16px;
+}
+
+
+
+p.quad {
+    position: relative;
+    bottom: 24px;
+    font-size: 18px;
+    color: #000;
+	font-weight: bold;
+}
+
+
+p.traco {
+    position: relative;
+    bottom: 62px;
+    font-size: 42px;
+    color: #000;
+	font-weight: bold;
+}
+
+.menu {
+    background: #e0e0e0;
+    width: 217px;
+    margin: 0 auto;
+	margin-top: -33px;
+}
+
+button.fechar{
+	position: relative;
+    float: right;
+    margin-top: -47px;
+    right: 5px;
+    width: 31px;
+    height: 16px;
+}
+
+p.fecharX {
+    position: relative;
+    bottom: 17px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu ul li{
+	display: inline-block;
+ }
+ 
+.menu ul li a {
+    color: #0E6094;
+    text-decoration: none;
+    position: relative;
+    right: 103%;
+	margin-left: 11px;
+	font-size: 12px;
+}
+
+.menu ul li a:hover{
+	color:#f7941e;
+}
+
+
+.telaNumerica {
+    background: #f1f1f1;
+    width: 217px;
+    height: 267px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 16px;
+    border-radius: 1px 0px 6px 6px;
+}
+
+input.numero {
+    position: relative;
+    left: 5%;
+    width: 193px;
+    height: 46px;
+    top: 9px;
+    border: 2px;
+}
+
+/* BOTOES */
+
+.botoes {
+    position: relative;
+    left: 7%;
+    width: 195px;
+    height: 197px;
+    bottom: 70%;
+    border: 2px;
+}
+
+button.mc {
+    position: relative;
+    top: 2%;
+    width: 35px;
+    height: 28px;
+}
+
+p.mcText {
+    position: relative;
+    bottom: 7px;
+    right: 1%;
+    font-size: 12px;
+}
+
+button.mr {
+    position: relative;
+    top: 2%;
+    width: 35px;
+    height: 28px;
+}
+
+p.mrText {
+    position: relative;
+    bottom: 7px;
+    right: 1%;
+    font-size: 12px;
+}
+
+button.ms {
+    position: relative;
+    top: 2%;
+    width: 35px ;
+    height: 28px;
+}
+
+p.msText {
+    position: relative;
+    bottom: 7px;
+    right: 1%;
+    font-size: 12px;
+}
+
+button.mMaior {
+    position: relative;
+    top: 3%;
+    width: 35px;
+    height: 28px;
+}
+
+p.mMaiorText {
+    position: relative;
+    bottom: 9px;
+    right: 1%%;
+    font-size: 13px;
+}
+
+button.m- {
+    position: relative;
+    top: 4%;
+    width: 35px;
+    height: 28px;
+}
+
+p.mMenorText {
+    position: relative;
+    bottom: 11px;
+    right: 3%;
+    font-size: 14px;
+}
+
+button.seta{
+	position: relative;
+    top: 4%;
+    width: 35px;
+    height: 28px;
+}
+
+p.setaEsquerda {
+    position: relative;
+    bottom: 27px;
+    right: 11%;
+    font-size: 23px;
+}
+
+button.ce{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.cee {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.c{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.cc {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.simbolo{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.simbolo1 {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.raiz{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.raizQuadrada {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+
+
+
+
+button.sete{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.numeroSete {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.oito{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.numeroOito {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.nove{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.numeroNove {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.divisao{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.divisor {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.porcento{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.porcentagem {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.porcento{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.porcentagem {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+
+
+
+
+button.quatro{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.numeroQuatro {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.cinco{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.numeroCinco {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.seis{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.numeroSeis {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.mult{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.multiplicador {
+    position: relative;
+    bottom: 7px;
+    right: 7%;
+    font-size: 13px;
+}
+
+button.seila{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 27px;
+}
+
+p.seila2 {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+
+
+
+
+button.um{
+	position: relative;
+    bottom: 8%;
+    width: 35px;
+    height: 27px;
+}
+
+p.numeroUm {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.dois{
+	position: relative;
+    bottom: 8%;
+    width: 35px;
+    height: 27px;
+}
+
+p.numeroDois {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.tres{
+	position: relative;
+    bottom: 8%;
+    width: 35px;
+    height: 27px;
+}
+
+p.numeroTres {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.sub{
+	position: relative;
+    bottom: 8%;
+    width: 35px;
+    height: 27px;
+}
+
+p.subtracao {
+    position: relative;
+    bottom: 9px;
+    right: 11%;
+    font-size: 13px;
+}
+
+button.igual{
+	position: relative;
+    bottom: 5%;
+    width: 35px;
+    height: 61px;
+}
+
+p.resultado {
+    position: relative;
+    bottom: -1px;
+    right: -1%;
+    font-size: 13px;
+}
+
+button.zero{
+	position: relative;
+    bottom: 32%;
+    width: 74px;
+    height: 27px;
+}
+
+p.numeroZero {
+    position: relative;
+    bottom: 9px;
+    left: 1%;
+    font-size: 13px;
+}
+
+button.separar{
+	position: relative;
+    bottom: 19%;
+    width: 35px;
+    height: 27px;
+}
+
+p.separador {
+    position: relative;
+    bottom: 41px;
+    right: 11%;
+    font-size: 27px;
+}
+
+button.somar{
+	position: relative;
+    bottom: 32%;
+    width: 35px;
+    height: 27px;
+}
+
+p.somarNumero {
+    position: relative;
+    bottom: 10px;
+    right: 1%;
+    font-size: 13px;
+}

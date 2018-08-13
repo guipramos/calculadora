@@ -1,0 +1,3 @@
+Só as funcionalidades principaIS da calculadora eu 
+
+programei como a soma, divisão, multiplicação e subtração.

@@ -1,0 +1,168 @@
+<!doctype HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css"  href="css/estilo.css">
+</head>
+<body>
+
+<div class="boxTudo">
+
+	<div class="header">
+		<img src="img/calc.png" class="imageCalc" width="20px" height="20px">
+		<h1 class="titulo">Calculadora</h1>
+		
+		<button class="menor">
+			<p class="traco">-</p>
+		</button>
+		
+		<button class="quadrado" disabled>
+			<p class="quad">□</p>
+		</button>
+		
+		<button class="fechar">
+			<p class="fecharX">x</p>
+		</button>
+	</div>	
+
+	<div class="menu">
+		<ul>
+			<li><a href="*">Exibir</a></li>
+			<li><a href="*">Editar</a></li>
+			<li><a href="*">Ajuda</a></li>
+			
+		</ul>
+	</div>
+
+	<div class="telaNumerica">
+		<input type="text" class="numero"> 
+	</div>
+
+	<div class="botoes">
+		<button class="mc">
+			<p class="mcText">MC</p>
+		</button>
+		
+		<button class="mr">
+			<p class="mrText">MR</p>
+		</button>
+		
+		<button class="ms">
+			<p class="msText">MS</p>
+		</button>
+		
+		<button class="mMaior">
+			<p class="mMaiorText">M+</p>
+		</button>
+
+		<button class="m-">
+			<p class="mMenorText">M-</p>
+		</button>
+		
+		<button class="seta">
+			<p class="setaEsquerda">←</p>
+		</button>
+		
+		<button class="ce">
+			<p class="cee">CE</p>
+		</button>
+		
+		<button class="c" onclick="limpar()">
+			<p class="cc">C</p>
+		</button>
+		
+		<button class="simbolo">
+			<p class="simbolo1">+-</p>
+		</button>
+		
+		<button class="raiz" onclick="preencher('√')">
+			<p class="raizQuadrada">√</p>
+		</button>
+		
+		
+		<button class="sete" value="7" onclick="preencher(7)">
+			<p class="numeroSete">7</p>
+		</button>
+		
+		
+		<button class="oito" value="8" onclick="preencher(8)">
+			<p class="numeroOito">8</p>
+		</button>
+		
+		<button class="nove" value="9" onclick="preencher(9)">
+			<p class="numeroNove">9</p>
+		</button>
+		
+		<button class="divisao" value="/" onclick="preencher('/')">
+			<p class="divisor">/</p>
+		</button>
+		
+		<button class="porcento" onclick="preencher('%')">
+			<p class="porcentagem">%</p>
+		</button>
+		
+		
+		<button class="quatro" value="4" onclick="preencher(4)">
+			<p class="numeroQuatro">4</p>
+		</button>
+		
+		
+		<button class="cinco" value="5" onclick="preencher(5)">
+			<p class="numeroCinco">5</p>
+		</button>
+		
+		<button class="seis" value="6"onclick="preencher(6)">
+			<p class="numeroSeis">6</p>
+		</button>
+		
+		<button class="mult" onclick="preencher('*')">
+			<p class="multiplicador">*</p>
+		</button>
+		
+		<button class="seila">
+			<p class="seila2">1/x</p>
+		</button>
+		
+		
+		<button class="um" value="1" onclick="preencher(1)">
+			<p class="numeroUm">1</p>
+		</button>
+		
+		
+		<button class="dois" value="2" onclick="preencher(2)">
+			<p class="numeroDois">2</p>
+		</button>
+		
+		<button class="tres" value="3" onclick="preencher(3)">
+			<p class="numeroTres">3</p>
+		</button>
+		
+		<button class="sub" onclick="preencher('-')">
+			<p class="subtracao">-</p>
+		</button>
+		
+		<button class="igual">
+			<p class="resultado" onclick="calcular()">=</p>
+		</button>
+		
+		
+		
+		
+		<button class="zero" onclick="preencher(0)">
+			<p class="numeroZero">0</p>
+		</button>
+		
+		<button class="separar">
+			<p class="separador">,</p>
+		</button>
+		
+		<button class="somar" onclick="preencher('+')">
+			<p class="somarNumero">+</p>
+		</button>
+	</div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
